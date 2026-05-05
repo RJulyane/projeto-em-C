@@ -15,7 +15,7 @@ int main(){
 	for(j=i-1;j>=0;j--){
 		printf(" %c", vetorzin[j]);
 	}    
-    printf("vogais presentes: ");
+    printf("\nvogais presentes: ");
 	for(j=0;j<i;j++){
 		if (vetorzin[j]=='a' || vetorzin[j]=='e' || vetorzin[j]=='i' || vetorzin[j]=='o' || vetorzin[j]=='u'){
 			printf(" %c", vetorzin[j]);
